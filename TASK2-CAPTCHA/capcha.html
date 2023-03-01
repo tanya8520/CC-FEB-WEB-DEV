@@ -1,0 +1,38 @@
+<html>
+
+<head>
+
+   <link rel="stylesheet" href="stylee.css">
+</head>
+
+
+<body background="t2.jpg" >
+      <div class="contact-form"  style=" background-color: transparent; padding: 3%; border-radius: 20px;  backdrop-filter: blur(15px); border: 3px solid rgba(255,255,255,0.5); box-shadow: 10px 10px 10px; margin-bottom: 40px; margin-top: 20px;">
+         <h2>CONTACT US</h2>
+         <form method="post" action="">
+            <p style="float: left;" >Enter Your Name</p><br>
+            <input type="text" name="name" palceholder="Your Name" required>
+            <p style="float: left;">Enter phone number</p>
+            <input type="text" name="phone" palceholder="Phone No" required>
+            <p style="float: left;">Enter Your Email</p>
+            <input type="email" name="email" palceholder="Your Email" required>
+            <div class="center">
+               <h1 id="captchaHeading" style="font-size: 30px;">
+                  Enter The Captcha
+               </h1>
+            </div>
+            <div id="captchaBackground">
+               <canvas id="captcha" style="size: 20px;">captcha text</canvas>
+               <input id="textBox" type="text" name="text">
+               <div id="buttons">
+                  <input id="submitButton" type="submit" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; width: 40%;">
+                  <button id="refreshButton" type="submit" >Refresh</button>
+               </div>
+               <span id="output"></span>
+            </div>
+      </div>
+      </form>
+      <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-repeat: no-repeat;
+    background-size: 1500px 1000px;
+}
+
+
+
+.contact-form {
+
+    margin: 1px auto;
+    width: 300px;
+    height: fit-content;
+    text-align: center;
+}
+
+.contact-form h2 {
+    background: #a0d4f5;
+    border-radius: 10px;
+    border: 5px solid  black;
+    margin-top: 0;
+    padding: 10px;
+    opacity: 80%;
+}
+
+.contact-form input {
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.contact-form textarea {
+    width: 90%;
+    margin: 5px auto;
+    padding: 10px;
+    height: 80px;
+}
+
+.submit-btn {
+    cursor: pointer;
+    width: 140px !important;
+    margin-left: 18px !important;
+}
+
+#captchaHeading {
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#captcha {
+    font-size: 20px;
+    letter-spacing: 3px;
+
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+#refreshButton {
+    background-color:#a0d4f5 ;
+    opacity: 80%;
+    border-radius: 10px;
+    border: 2px solid  black;
+    font-weight: bold;
+    padding: 10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+.incorrectCaptcha {
+    color: red;
+}
+
+.correctCaptcha {
+    color: green;
+}
